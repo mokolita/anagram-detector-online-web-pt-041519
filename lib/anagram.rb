@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   attr_accessor :word 
   
@@ -9,6 +11,7 @@ class Anagram
     new_array = []
     array.each do |item|
       if item.split("").sort == @word.split("").sort  
+        binding.pry 
         new_array << item 
       else
         new_array
