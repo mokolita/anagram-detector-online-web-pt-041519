@@ -13,7 +13,7 @@ class Anagram
       else
         new_array
     end 
-      
+    end   
   end 
 
 end 
