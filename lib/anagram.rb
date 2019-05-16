@@ -13,6 +13,7 @@ class Anagram
       if item.split("").sort == @word.split("").sort  
         binding.pry 
         new_array << item 
+        binding.pry
       else
         new_array
     end 
