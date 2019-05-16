@@ -11,9 +11,7 @@ class Anagram
     new_array = []
     array.each do |item|
       if item.split("").sort == @word.split("").sort  
-        #binding.pry 
         new_array << item 
-        #binding.pry
       else
         new_array
     end 
